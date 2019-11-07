@@ -309,7 +309,7 @@ type Publisher struct {
 	tmpl433C2783
 }
 
-var verificationRegex = regexp.MustCompile(`@OpenIndexProto(?:col)?\p{Zs}verifying\p{Zs}"(.+)"\p{Zs}is\p{Zs}publishing\p{Zs}as:\p{Zs}\n?([0-9a-f]{64})`)
+var verificationRegex = regexp.MustCompile(`@OpenIndexProto(?:col)?\p{Zs}verifying\p{Zs}[\p{Pi}"'](.+)[\p{Pf}"']\p{Zs}is\p{Zs}publishing\p{Zs}as:\p{Zs}\n?([0-9a-f]{64})`)
 
 type VerificationResponse struct {
 	Twitter    bool   `json:"twitter"`
