@@ -6,3 +6,23 @@
   name = "github.com/azer/logger"
   branch = "forceColors"
   source = "github.com/bitspill/logger"
+
+[[constraint]]
+  name = "github.com/coreos/pkg"
+  version = "v4"
+
+[[constraint]]
+  name = "github.com/dghubble/go-twitter"
+  branch = "master"
+
+[[constraint]]
+  name = "github.com/dghubble/oauth1"
+  version = "v0.6.0"
+
+[[constraint]]
+  name = "github.com/gorilla/mux"
+  version = "v1.7.3"
+
+[[constraint]]
+  name = "github.com/rs/cors"
+  version = "v1.7.0"
